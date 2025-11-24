@@ -1,0 +1,11 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+}
+.primary {
+  color: #217c6d;
+}
+
+.secondary input:checked ~ label {
+  color: blueviolet;
+  font-size: 30px;
+}
