@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>選擇器</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--命名分兩種
+    class可重複
+    id不可重複
+    id除了可以用在css做區別，最重要的是綁定的作用
+    div>p快捷鍵
+    ｐ*2快捷鍵-->
+    <p class="primary">請選擇你的年級</p>
+    <div class="secondary">
+      <input type="radio" name="grade" id="one" /><label for="one"
+        >一年級</label
+      >
+    </div>
+    <div class="secondary">
+      <input type="radio" name="grade" id="two" /><label for="two"
+        >二年級</label
+      >
+    </div>
+    <div class="secondary">
+      <input type="radio" name="grade" id="three" /><label for="three"
+        >三年級</label
+      >
+    </div>
+    <div class="secondary">
+      <input type="radio" name="grade" id="four" /><label for="four"
+        >四年級</label
+      >
+    </div>
+    <!--html的class加空白鍵代表多一個class屬性
+    css的選擇器加空白鍵代表子階層-->
+    <span class="material-symbols-outlined "> menu </span>
+    <span class="material-symbols-outlined primary"> home </span>
+  </body>
+</html>
